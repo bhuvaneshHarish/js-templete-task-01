@@ -1,0 +1,99 @@
+*{
+	margin:0px;
+	padding:0;
+	box-sizing:border-box;
+}
+.main{
+	margin:auto;
+	padding:30px;
+	width:500px;
+	background-color:black;
+	border-radius:4px;
+}
+.container{
+	background-color:black;
+	text-align:center;
+	border:1px solid white;
+	border-radius:10px;
+}
+.calender{
+	margin:20px 0px;
+	justify-content: space-evenly;
+	display:flex;
+}
+.dd, .mm, .yy{
+	border-radius:2px;
+	padding:5px;
+	color:red;
+	background-color:#e256567a;
+}
+.dd, .mm, .yy strong{
+	font-size:26px;
+}
+.time{
+	display:flex;
+	justify-content: space-evenly;
+}
+.time span{
+}
+.date p{
+	color:white;
+	font-size:20px;
+}
+.month p{
+	color:white;
+    font-size:20px;
+}
+.year p{
+	color:white;
+	font-size:20px;
+}
+.hh, .ss, .mi{
+	padding:5px;
+	color:red;
+	width:50px;
+	height:40px;
+	background-color:#e256567a;
+	
+}
+.hh, .ss, .mi, strong{
+	text-shadow: 5px 5px 30px azure;
+	font-size:26px;
+	border-radius:2px;
+}
+.days{
+	margin:20px 0px;
+	display:flex;
+	justify-content: space-evenly;
+}
+.days span{
+	margin:3px 0px;
+	width:15px;
+	height:15px;
+	border-radius:50px;
+	background-color:#e256567a;	
+}
+.day.active{
+	background-color:red;
+}
+.days strong{
+	font-size:18px;
+	color:white;
+}
+.periods{
+	margin:13px 0px;;
+}
+.periods span{
+	margin:0px 7px 0px 0px;
+	background-color:#e256567a;
+	display:inline-block;
+	width:15px;
+	height:15px;
+	border-radius:50px;
+}
+.periods strong{
+	font-size:18px;
+	color:white;
+	margin:0px 25px 0px 0px;
+}
+
